@@ -87,12 +87,6 @@ And just open the index file in any browser
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **MD Mursedul Islam Sumon**
-
-- GitHub: [@githubhandle](https://github.com/sumon766)
-- Twitter: [@twitterhandle](https://twitter.com/sumon766)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sumon766)
-
 👤 **Santosh Konappanavar**
 
 
