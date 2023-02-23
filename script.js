@@ -72,14 +72,14 @@ const booksadd = document.getElementById('booksadd');
 const contactinfo = document.getElementById('contactinfo');
 const totalbookscolor = document.getElementById('totalbookscolor');
 const booksaddcolor = document.getElementById('booksaddcolor');
-const contactcolor = document.getElementById('contactcolor')
+const contactcolor = document.getElementById('contactcolor');
 
 totalbooks.addEventListener('click', (e) => {
   e.preventDefault();
   booklist.style.display = 'block';
   totalbookscolor.style.color = 'blue';
   booksaddcolor.style.color = 'black';
-  contactcolor.style.color = 'black'
+  contactcolor.style.color = 'black';
   bookadd.style.display = 'none';
   contact.style.display = 'none';
 });
@@ -91,7 +91,7 @@ booksadd.addEventListener('click', (e) => {
   contact.style.display = 'none';
   totalbookscolor.style.color = 'black';
   booksaddcolor.style.color = 'blue';
-  contactcolor.style.color = 'black'
+  contactcolor.style.color = 'black';
 });
 
 contactinfo.addEventListener('click', (e) => {
