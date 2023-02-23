@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kalam:wght@300;400;700&display=swap");
+
+body {
+  border: 2.5px solid black;
+  width: 50%;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  height: 30px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.navigation h1 a {
+  justify-self: flex-start;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style-type: none;
+  border-right: 1px solid #1c1c1c;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding: 12px 18px;
+}
+
+.nav ul li:last-child {
+  border-right: 0 solid #1c1c1c;
+}
+
+.contact-details ul li a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.nav ul li a:hover {
+  color: #5475e2;
+}
+
+.nav ul li a:active {
+  color: #5475e2;
+}
+
+.books-list {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.books-list h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Kalam", cursive;
+  color: #1c1c1c;
+}
+
+.list {
+  margin: 10px 0;
+}
+
+.books {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: #1c1c1c;
+}
+
+.book:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.book button {
+  margin-bottom: 5px;
+  width: 60px;
+  height: 20px;
+  border-radius: 0;
+  border: 1px solid #010101;
+  box-shadow: 2px 2px #131212;
+}
+
+.add-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin: auto;
+}
+
+.form h2 {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 25px;
+  color: #1c1c1c;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+form [name="author"] {
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  height: 30px;
+  width: 70px;
+  border-radius: 0;
+  border: 1px solid #010101;
+  box-shadow: 5px 5px #131212;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 25px;
+  color: #1c1c1c;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #1c1c1c;
+  margin-top: 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  font-family: "Kalam", cursive;
+  color: #1c1c1c;
+  position: relative;
+  margin: 10px;
+  font-size: 14px;
+  border: 2px solid #1c1c1c;
+}
+
+.footer > h3 {
+  margin: 1.5px auto auto 10px;
+}
+
+.footer > p {
+  margin: auto auto auto -85%;
+  font-weight: bolder;
+  font-size: 18px;
+}
